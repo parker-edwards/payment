@@ -12,6 +12,7 @@ import (
 	"github.com/microservices-demo/payment"
 	stdopentracing "github.com/opentracing/opentracing-go"
 	zipkin "github.com/openzipkin/zipkin-go-opentracing"
+	lightstep "github.com/lightstep/lightstep-tracer-go"
 	"golang.org/x/net/context"
 )
 
